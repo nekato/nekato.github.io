@@ -1,0 +1,147 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    transition: background-color 1s;
+}
+
+.sisa {
+    background-color: #212121;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:link,
+.navbar-default .navbar-nav > li > a:visited {
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s;
+}
+
+.navbar-default .navbar-brand {
+    color: #f1c40f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+/*@media (min-width: 768px) {*/
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #f1c40f;
+        color: white;
+    }
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/code.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    display:flex;justify-content:center;align-items:center;
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:link,
+.navbar-default .navbar-nav>.active>a:visited {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #f1c40f;
+    color: white;
+    background-color: transparent;
+}
+
+.icons {
+    font-size: 80px;
+    color: #f1c40f;
+}
+
+.top {
+    text-align: center;
+    margin: 100px 0;
+}
+
+@media (min-width: 1200px) {
+    .dva {
+        text-align: center;
+        padding: 10px 80px;
+    }
+}
+
+#about {
+    margin-bottom: 150px;
+}
+
+#portfolio {
+    background-color: #f1c40f;
+}
+
+#portfolio .row {
+    margin-bottom: 100px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/*.thumbnail {
+    width: 300px;
+    height: 300px;
+}*/
+
+.thumbnail a>img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.thumbnail h5 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.thumbnail {
+    padding: 0;
+    border: 0;
+}
+
+@media (min-width: 992px){
+    #recipe {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #recipe {
+        display: none;
+    }
+}
+
+#contact {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+#contact i {
+    font-size: 48px;
+}
