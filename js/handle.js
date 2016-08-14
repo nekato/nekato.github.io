@@ -28,6 +28,9 @@ $(document).ready(function(){
             window.location.hash = hash;
           });
         }  // End if
-      });
+    });
 
+    $('.nav li a').on('click',function(){
+        $('.navbar-collapse.in').collapse('hide');
+    })
 });
